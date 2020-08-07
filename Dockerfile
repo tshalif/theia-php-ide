@@ -30,7 +30,7 @@ RUN apt-get update \
         && apt-get install -y python3.8 python3-dev python3-pip \
         && apt-get remove -y software-properties-common \
         && python3.8 -m pip install --upgrade pip \
-        && pip3 install python-language-server flake8 autopep8
+        && pip3 install python-language-server flake8 autopep8 pylint
 
 
 #PHP

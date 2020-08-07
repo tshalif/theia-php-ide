@@ -3,3 +3,4 @@ tmp
 *.tmp
 *.tmp.*
 node_modules
+.git
