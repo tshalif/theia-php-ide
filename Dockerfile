@@ -75,7 +75,7 @@ RUN yarn && \
 
 EXPOSE $THEIA_PORT
 ENV PROJECT_DIR=/app \
-        THEIA_RUN_ROOT=1 \
+        THEIA_RUN_ROOT=0 \
         THEIA_PORT=$THEIA_PORT \
         SHELL=/bin/bash \
         THEIA_DEFAULT_PLUGINS=local-dir:/home/theia/plugins
